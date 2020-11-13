@@ -1,38 +1,109 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color:#dfdfdf;">
+<html lang="en" style="background-color:#fff;">
 	<head>
 		<meta charset="UTF-8">
 		<title>Blooket Blooks</title>
 		<link rel="icon" href="https://cdn.discordapp.com/icons/605240810191192064/d4495973a9baee9f3715e7a4bcab0fac.png?size=128">
+		<script src="https://kit.fontawesome.com/3a751583ae.js" crossorigin="anonymous"></script>
 		<style>
+			#wat{
+				display:block;
+				color:#fff;
+				font-family:Trebuchet MS;
+				font-size:25px;
+				font-weight:bold;
+				vertical-align:middle;
+				text-align:center;
+				padding-top:15px;
+			}
+			footer{
+				width:100%;
+				height:250px;
+				background-color:#013285;
+			}
+			.footertext{
+				font-weight:normal;
+				font-family:Trebuchet MS;
+				font-size:120%;
+			}
+			.footbutton{
+				text-decoration:none;
+				color:#fff;
+				vertical-align:middle;
+			}
+			i{
+				display:inline;
+				color:#fff;
+				vertical-align:top;
+				margin-right:10px;
+			}
+			#blooketdiscord{
+				background-color:#738adb;
+				border-radius:10px;
+				width:25%;
+				height:75px;
+				vertical-align:center;
+				text-align:center;
+				box-shadow:0 0 15px #001063;
+				display:inline-block;
+				margin:50px 12.5% 50px 12%;
+			}
+			#blooketwebsite{
+				width:25%;
+				height:75px;
+				background-color:#ffa31e;
+				border-radius:10px;
+				vertical-align:center;
+				text-align:center;
+				box-shadow:0 0 15px #001063;
+				display:inline-block;
+				margin:50px 12.5% 50px 12%;
+
+			}
+			.category{
+				color:#fff;
+				background-color:#0bc2cf;
+				border-radius:15px;
+				width:400px;
+				height:50px;
+				vertical-align:middle;
+				text-align:center;
+				display:inline;
+				padding:10px 40px;
+				font-family:Trebuchet MS;
+				font-weight:bold;
+				text-shadow:0 0 15px #046058;
+			}
 			#nav{
-				background-color:#cfcfcf;
+				background-color:#9a49aa;
 				width:100%;
 				height:70px;
 				display:block;
 				border-radius:10px;
 			}
 			a h2{
-				font-size:75%;
+				font-size:90%;
 				vertical-align:middle;
 				text-align:center;
-				color:#050505;
+				color:#fff;
+				font-family:Trebuchet MS;
+				font-weight:bold;
 			}
 			.button{
-				background-color:#fff;
 				text-align:center;
-				border-radius:7.5px;
 				height:40px;
-				width:9%;
+				width:9.75%;
 				padding:0.1% 0%;
-				display:inline;
-				float:right;
-				margin:1% 0.5%;
+				display:inline-block;
+				float:left;
+				margin:1% 0%;
 				text-decoration:none;
 			}
 
 			.button:hover{
-				background-color:#eee;
+				border-bottom-width:3px;
+				border-bottom-color:#fff;
+				border-bottom-style:solid;
 
 			}
 			img{
@@ -115,40 +186,40 @@
 	</head>
 	<main >
 		<nav id="nav">
-			<a class="button" href="#wonderland">
-				<h2>Wonderland</h2>
-			</a>
-			<a class="button" href="#spooky">
-				<h2>Spooky</h2>
-			</a>
-			<a class="button" href="#medieval">
-				<h2>Medieval</h2>
-			</a>
-			<a class="button" href="#breakfast">
-				<h2>Breakfast</h2>
-			</a>
-			<a class="button" href="#blizzard">
-				<h2>Blizzard</h2>
-			</a>
-			<a class="button" href="#tropical">
-				<h2>Tropical Animals</h2>
-			</a>
-			<a class="button" href="#pets">
-				<h2>Pets</h2>
-			</a>
-			<a class="button" href="#forest">
-				<h2>Forest Animals</h2>
+			<a class="button" href="#arctic">
+				<h2>Arctic Animals</h2>
 			</a>
 			<a class="button" href="#farm">
 				<h2>Farm Animals</h2>
 			</a>
-			<a class="button" href="#arctic">
-				<h2>Arctic Animals</h2>
+			<a class="button" href="#forest">
+				<h2>Forest Animals</h2>
+			</a>
+			<a class="button" href="#pets">
+				<h2>Pets</h2>
+			</a>
+			<a class="button" href="#tropical">
+				<h2>Tropical Animals</h2>
+			</a>
+			<a class="button" href="#blizzard">
+				<h2>Blizzard</h2>
+			</a>
+			<a class="button" href="#breakfast">
+				<h2>Breakfast</h2>
+			</a>
+			<a class="button" href="#medieval">
+				<h2>Medieval</h2>
+			</a>
+			<a class="button" href="#spooky">
+				<h2>Spooky</h2>
+			</a>
+			<a class="button" href="#wonderland">
+				<h2>Wonderland</h2>
 			</a>
 		</nav>
 		<h1 style="text-align:center;padding-top:15px;padding-bottom:25px;">Blook Information</h1>
 		<div style="text-align:center;width:60%">
-			<h1 id="arctic" style="text-align:center;">Arctic Animals</h1>
+			<h1 class="category" id="arctic" style="text-align:center;">Arctic Animals</h1>
 			<div class="scroll">
 				<table>
 					<tr>
@@ -283,8 +354,8 @@
 
 
 
-		<div id="farm" style="text-align:center;width:60%">
-			<h1 style="text-align:center;">Farm Animals</h1>
+		<div style="text-align:center;width:60%">
+			<h1 id="farm" class="category" style="text-align:center;">Farm Animals</h1>
 			<div class="scroll">
 				<table>
 					<tr>
@@ -421,8 +492,8 @@
 
 
 
-		<div id="forest" style="text-align:center;width:60%">
-			<h1 style="text-align:center;">Forest Animals</h1>
+		<div style="text-align:center;width:60%">
+			<h1 id="forest" class="category" style="text-align:center;">Forest Animals</h1>
 			<div class="scroll">
 				<table>
 					<tr>
@@ -546,8 +617,8 @@
 
 
 		
-		<div id="pets" style="text-align:center;width:60%">
-			<h1 style="text-align:center;">Pets</h1>
+		<div style="text-align:center;width:60%">
+			<h1 id="pets" class="category" style="text-align:center;">Pets</h1>
 			<div class="scroll">
 				<table>
 					<tr>
@@ -685,8 +756,8 @@
 
 
 
-		<div id="tropical" style="text-align:center;width:60%">
-			<h1 style="text-align:center;">Tropical Animals</h1>
+		<div style="text-align:center;width:60%">
+			<h1 id="tropical" class="category" style="text-align:center;">Tropical Animals</h1>
 			<div class="scroll">
 				<table>
 					<tr>
@@ -850,8 +921,8 @@
 
 
 
-		<div id="blizzard" style="text-align:center;width:60%">
-			<h1 style="text-align:center;">Blizzard</h1>
+		<div style="text-align:center;width:60%">
+			<h1 id="blizzard" class="category" style="text-align:center;">Blizzard</h1>
 			<div class="scroll">
 				<table>
 					<tr>
@@ -988,8 +1059,8 @@
 
 
 
-		<div id="breakfast" style="text-align:center;width:60%">
-			<h1 style="text-align:center;">Breakfast</h1>
+		<div style="text-align:center;width:60%">
+			<h1 id="breakfast" class="category" style="text-align:center;">Breakfast</h1>
 			<div class="scroll">
 				<table>
 					<tr>
@@ -1183,8 +1254,8 @@
 
 
 
-		<div id="medieval" style="text-align:center;width:60%">
-			<h1 style="text-align:center;">Medieval</h1>
+		<div style="text-align:center;width:60%">
+			<h1 id="medieval" class="category" style="text-align:center;">Medieval</h1>
 			<div class="scroll">
 				<table>
 					<tr>
@@ -1350,8 +1421,8 @@
 
 
 
-		<div id="spooky" style="text-align:center;width:60%">
-			<h1 style="text-align:center;">Spooky</h1>
+		<div style="text-align:center;width:60%">
+			<h1 id="spooky" class="category" style="text-align:center;">Spooky</h1>
 			<div class="scroll">
 				<table>
 					<tr>
@@ -1545,8 +1616,8 @@
 
 
 
-		<div id="wonderland" style="text-align:center;width:60%">
-			<h1 style="text-align:center;">Wonderland</h1>
+		<div style="text-align:center;width:60%">
+			<h1 id="wonderland" class="category" style="text-align:center;">Wonderland</h1>
 			<div class="scroll">
 				<table>
 					<tr>
@@ -1721,4 +1792,35 @@
 			</div>
 		</div>
 	</main>
+	<footer>
+		<p id="wat">Courtesy of: wat</p>
+		<div id="blooketwebsite">
+			<table style="margin-top:5px;">
+				<tr>
+					<th  style="width:50%;">
+						<i style="display:inline-block" class="fas fa-home fa-3x"></i>
+					</th>
+					<th  style="width:50%;">
+						<a style="display:inline-block;" class="footbutton" href="https://www.blooket.com/">
+							<p class="footertext">Blooket website</p>
+						</a>
+					</th>
+				</tr>
+			</table>
+		</div>
+		<div id="blooketdiscord">
+			<table style="margin-top:5px;">
+				<tr>
+					<th style="width:50%;">
+							<i style="display:inline-block;" class="fab fa-discord fa-3x"></i>
+					</th>
+					<th  style="width:50%;">
+						<a style="display:inline-block" class="footbutton" href="https://discord.com/invite/BKpkvmb">
+							<p class="footertext">Blooket discord</p>
+						</a>
+					</th>
+				</tr>
+			</table>
+		</div>
+	</footer>
 </html>
