@@ -1851,4 +1851,50 @@
 			</table>
 		</div>
 	</footer>
+	<script>
+			window.onload = function() {
+				var newpage = document.createElement('div');
+				document.body.appendChild(newpage);
+				newpage.style.width = '50%';
+				newpage.style.left = '25%';
+				newpage.style.position = 'relative';
+				newpage.style.padding = '5px 0';
+				newpage.style.height = 'auto';
+				newpage.style.backgroundColor = '#fff';
+				newpage.style.borderRadius = '5px';
+				newpage.style.boxShadow = '0 0 8px 3px #0003'
+				var informnewpage2 = document.createElement('h2');
+				newpage.appendChild(informnewpage2);
+				informnewpage2.innerHTML = 'This page is no longer being updated.';
+				informnewpage2.style.color = '#666';
+				informnewpage2.style.fontFamily = 'Nunito';
+				informnewpage2.style.fontWeight = '400'
+				informnewpage2.style.width = '100%';
+				informnewpage2.style.textAlign = 'center';
+				var informnewpage = document.createElement('h1');
+				newpage.appendChild(informnewpage);
+				informnewpage.innerHTML = 'This page has changed it\'s URL. Click <a href="https://Blooket.github.io">HERE</a> to visit the new page.';
+				informnewpage.style.margin = '0 5%';
+				informnewpage.style.color = '#3a3a3a';
+				informnewpage.style.fontFamily = 'Nunito';
+				informnewpage.style.fontWeight = '600'
+				informnewpage.style.width = '90%';
+				informnewpage.style.textAlign = 'center';
+				var exitnewpage = document.createElement('div');
+				newpage.appendChild(exitnewpage);
+				exitnewpage.innerHTML = '<i class="fas fa-times fa-2x"></i>'
+				exitnewpage.style.color = '#3a3a3a';
+				exitnewpage.style.zIndex = '2';
+				exitnewpage.style.position = 'absolute';
+				exitnewpage.style.right = '5px';
+				exitnewpage.style.top = '0';
+				exitnewpage.style.cursor = 'pointer';
+				exitnewpage.onclick = function() {
+					newpage.remove();
+					informnewpage2.remove();
+					informnewpage.remove()
+					exitnewpage.remove();
+				};
+			};
+		</script>
 </html>
